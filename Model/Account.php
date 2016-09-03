@@ -20,12 +20,6 @@ class Account extends AbstractModel
      *                      class="Ddeboer\Salesforce\MapperBundle\Model\AccountContactRole")
      */
     protected $accountContactRoles;
-
-    /**
-     * @var string
-     * @Salesforce\Field(name="AccountNumber")
-     */
-    protected $accountNumber;
     
     /**
      * @var float
